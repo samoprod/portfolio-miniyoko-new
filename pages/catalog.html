@@ -955,36 +955,31 @@
 	</div>
 </footer>
 	</div>
-	<div class="popup">
+	<div class="popup popup-callback">
 	<div class="popup-table table">
 		<div class="cell">
 			<div class="popup-content">
 				<div class="popup-close"></div>
-				<div class="popup__title"></div>
-				<div class="popup__txt"></div>
-				<form action="#" class="popup-form form">
-					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="" class="input" />
+				<div class="popup__title">Заказать звонок</div>
+				<div class="popup__txt">Оставьте свои контакты и наши менеджеры перезвонят Вам!</div>
+				<form action="#" class="popup-form form" data-ms="success">
+					<div class="inputs-wrap">
+						<input autocomplete="off" type="text" name="form[]" data-value="Введите своё имя"
+							class="input input req" />
+						<input autocomplete="off" type="text" name="form[]" data-value="Контактный телефон"
+							class="input input req phone" />
 					</div>
-					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req email" />
-					</div>
-					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req" />
-					</div>
+
+					<p class="popup-form__note">
+						Нажатием кнопки «Заказать звонок» я принимаю <a href="#">условия оферты</a> по использованию сайта и
+						согласен с
+						<a href="#">Политикой конфиденциальности</a>.
+					</p>
 					<div class="form-button">
-						<button type="submit" class="form__btn btn fw"></button>
+						<button type="submit" class="form__btn btn fw">Заказать звонок</button>
 					</div>
 				</form>
 			</div>
-		</div>
-	</div>
-</div>
-<div class="popup popup-video">
-	<div class="popup-table table">
-		<div class="cell">
-			<div class="popup-close"></div>
-			<div class="popup-video__value"></div>
 		</div>
 	</div>
 </div>
